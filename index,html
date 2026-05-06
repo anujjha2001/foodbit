@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Menu</title>
+</head>
+<body>
+
+    <h1>🍔 Food Menu</h1>
+
+    <form method="post" action="/Home/Order">
+
+        <label>Select Food:</label><br>
+        <select name="food">
+            <option>Pizza</option>
+            <option>Burger</option>
+            <option>Pasta</option>
+            <option>Sandwich</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" name="quantity" required /><br><br>
+
+        <button type="submit">Order Now</button>
+    </form>
+
+</body>
+</html>
